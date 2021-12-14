@@ -9,7 +9,7 @@ module.exports = {
   oauth2Credentials: {
     client_id:
 			'500463387158-8jjaoecfp9n05itj91knfcn5itidbo7m.apps.googleusercontent.com',
-    project_id: 'PodParty', // The name of your project
+    project_id: 'PodParty', 
     auth_uri:
 			'https://accounts.google.com/o/oauth2/auth?scope=openid%20profile%20email',
     token_uri: 'https://oauth2.googleapis.com/token',
