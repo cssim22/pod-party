@@ -1,0 +1,21 @@
+#podcasts-lists {
+    background: blue;
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+  background-color: rgb(239, 245, 255);
+  margin: 0;
+  padding: 0;
+  
+}
+
+h1 {
+  color:blue
+}
+
+a {
+  color: black
+}
+
