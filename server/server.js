@@ -89,7 +89,6 @@ app.get('/clubs', groupsController.getGroups, (req, res) => {
 });
 
 app.post('/podcasts', podcastsController.getPodcasts ,(req, res) => {
-  console.log('podcasts');
   return res.status(200).json(res.locals.podcasts);
 });
 app.post('/adduser', userController.addUser, (req, res) => {
@@ -97,7 +96,6 @@ app.post('/adduser', userController.addUser, (req, res) => {
 });
 
 app.post('/messages', (req, res) => {
-  console.log(req.body);
   return res.status(200).json('MESSAGES');
 });
 
